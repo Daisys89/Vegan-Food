@@ -30,8 +30,8 @@
       <img class="logo" alt="Veganfood logo" src="img/veganfood-logo.png" />
       <nav class="main-nav">
         <ul class="main-nav-list">
-          <li><a class="main-nav-link" href="#">Section 1</a></li>
-          <li><a class="main-nav-link" href="#">Section 2</a></li>
+          <li><a class="main-nav-link" href="#howitworks">How it works</a></li>
+          <li><a class="main-nav-link" href="#meals">Meals</a></li>
           <li><a class="main-nav-link" href="#">Section 3</a></li>
           <li><a class="main-nav-link" href="#">Section 4</a></li>
           <li><a class="main-nav-link nav-cta" href="#">Section 5</a></li>
@@ -94,7 +94,7 @@
         </div>
       </section>
 
-      <section class="section-how">
+      <section class="section-how" id="howitworks">
         <div class="container">
           <span class="subheading">How it works</span>
           <h2 class="heading-secondary">
@@ -160,7 +160,7 @@
         </div>
       </section>
 
-      <section class="section-meals">
+      <section class="section-meals" id="meals">
         <div class="container">
           <span class="subheading">Meals</span>
           <h2 class="heading-secondary">
@@ -230,7 +230,37 @@
               </ul>
             </div>
           </div>
-          <div class="diets">
+          <div class="meal">
+            <img
+              src="img/gallery/vgallery-7.jpg"
+              class="meal-img"
+              alt="Meal 2: Peanutsoup with alfalfa"
+            />
+            <div class="meal-content">
+              <div class="meal-tags">
+                <span class="tag">Vegan</span>
+              </div>
+              <p class="meal-title">Soup, pasta and salad</p>
+              <ul class="meal-attributes">
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                  <span><strong>800</strong> calories</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon
+                    class="meal-icon"
+                    name="restaurant-outline"
+                  ></ion-icon>
+                  <span>Nutriscore &reg; <strong>78</strong> </span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                  <span><strong>4.9</strong> rating (591)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- <div class="diets">
             <h3 class="heading-tertiary">Reasons to go vegan:</h3>
             <ul class="list">
               <li class="list-item">
@@ -246,11 +276,83 @@
                 <span>For your health</span>
               </li>
             </ul>
-          </div>
+          </div> -->
         </div>
 
         <div class="container all-recipes">
           <a href="#" class="link">See all recipes &rarr;</a>
+        </div>
+      </section>
+
+      <section class="section-testimonials">
+        <div class="testimonials-container container grid grid--2-cols">
+          <div class="testimonials-content">
+            <span class="subheading">Testimonials</span>
+            <h2 class="heading-secondary">
+              There’s No Such Thing As “Mad Carrot Disease”
+            </h2>
+
+            <div class="testimonials">
+              <figure class="testimonial">
+                <img
+                  src="img/customers/dave.jpg"
+                  alt="Photo of customer Dave Bryson"
+                  class="testimonial-img"
+                />
+                <blockquote class="testimonial-text">
+                  Inexpensive, healthy and great-tasting meals, without even
+                  having to order manually! It feels truly magical.
+                </blockquote>
+                <p class="testimonial-name">&mdash; Dave Bryson</p>
+              </figure>
+              <figure class="testimonial">
+                <img
+                  src="img/customers/ben.jpg"
+                  alt="Photo of customer Ben Hadley"
+                  class="testimonial-img"
+                />
+                <blockquote class="testimonial-text">
+                  The AI algorithm is crazy good, it chooses the right meals for
+                  me every time. It's amazing not to worry about food anymore!
+                </blockquote>
+                <p class="testimonial-name">&mdash; Ben Hadley</p>
+              </figure>
+              <figure class="testimonial">
+                <img
+                  src="img/customers/steve.jpg"
+                  alt="Photo of customer Steve Miller"
+                  class="testimonial-img"
+                />
+                <blockquote class="testimonial-text">
+                  Veganfood is a life saver! I just started a company, so
+                  there's no time for cooking. I couldn't live without my daily
+                  meals now!
+                </blockquote>
+                <p class="testimonial-name">&mdash; Steve Miller</p>
+              </figure>
+              <figure class="testimonial">
+                <img
+                  src="img/customers/hannah.jpg"
+                  alt="Photo of customer Hannah Smith"
+                  class="testimonial-img"
+                />
+                <blockquote class="testimonial-text">
+                  I got Veganfood for the whole family, and it frees up so much
+                  time! Plus, everything is organic and vegan and without
+                  plastic.
+                </blockquote>
+                <p class="testimonial-name">&mdash; Hannah Smith</p>
+              </figure>
+            </div>
+          </div>
+          <div class="gallery" container grid grid--2-cols>
+            <div>
+              <span class="subheading">Gallery</span>
+              <h2 class="heading-secondary">
+                "What else do you eat besides salad?!"
+              </h2>
+            </div>
+          </div>
         </div>
       </section>
     </main>
