@@ -39,7 +39,7 @@
   text-decoration: none;
   color: #333;
   font-weight: 500;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   transition: all 0.3s;
 }
 
@@ -291,26 +291,6 @@
   font-size: 1.8rem;
 }
 
-.list {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 1.6rem;
-}
-
-.list-item {
-  font-size: 1.8rem;
-  display: flex;
-  align-items: center;
-  gap: 1.6rem;
-}
-
-.list-icon {
-  width: 2.4rem;
-  height: 2.4rem;
-  color: #277c38;
-}
-
 /*********************************/
 /* TESTIMONIAL SECTION */
 /*********************************/
@@ -337,7 +317,7 @@
 
 .testimonial-text {
   font-size: 1.4rem;
-  line-height: 1.8;
+  line-height: 1.4;
   margin-bottom: 1.6rem;
 }
 
@@ -366,4 +346,92 @@
 
 .gallery-img:hover {
   transform: scale(1.1);
+}
+
+/*********************************/
+/* PRICING SECTION */
+/*********************************/
+
+.section-pricing {
+  background-color: #eaf3ec;
+  padding: 8rem 0;
+}
+
+.pricing-plan {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+
+  width: 75%;
+  transition: all 0.4s;
+}
+
+.pricing-plan:hover {
+  transform: translateY(-1rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+}
+
+.pricing-plan--starter {
+  justify-self: end;
+  border: 2px solid #fff;
+  padding: 4.6rem;
+}
+
+.pricing-plan--complete {
+  background-color: #fff;
+  padding: 4.8rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.pricing-plan--complete::after {
+  content: 'Best value';
+  position: absolute;
+  top: 4%;
+  right: -9%;
+
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 700;
+  background-color: #80b98b;
+  padding: 0.8rem 3.2rem;
+  color: #333;
+  transform: rotate(45deg);
+}
+
+.plan-header {
+  text-align: center;
+  margin-bottom: 4.8rem;
+}
+
+.plan-name {
+  color: #277c38;
+  font-weight: 600;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.75;
+  margin-bottom: 3.2rem;
+}
+
+.plan-price {
+  font-size: 6.2rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 1.6rem;
+}
+
+.plan-price span {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-right: 0.8rem;
+}
+
+.plan-text {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: #666;
+}
+
+.plan-sign-up {
+  text-align: center;
+  margin-top: 4.8rem;
 }
