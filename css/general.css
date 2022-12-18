@@ -218,6 +218,10 @@ body {
   margin-bottom: 4.8rem !important;
 }
 
+.margin-bottom-sm {
+  margin-bottom: 3.2rem !important;
+}
+
 strong {
   font-weight: 500;
 }
