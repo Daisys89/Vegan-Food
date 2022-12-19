@@ -77,7 +77,7 @@ Instead, 1rem = 1em = 16px. Use em for media queries. */
   }
 
   .logos img {
-    height: 1.6rem;
+    height: 2rem;
   }
 
   .step-number {
