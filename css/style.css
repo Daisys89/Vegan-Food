@@ -206,7 +206,7 @@
   transform: translate(-50%, -50%);
 }
 
-.step-img-box::before {
+/* .step-img-box::before {
   width: 70%;
   padding-bottom: 70%;
   background-color: #eaf3ec;
@@ -218,7 +218,7 @@
   padding-bottom: 55%;
   background-color: #d5e8d8;
   z-index: -1;
-}
+} */
 
 .step-img {
   width: 35%;
