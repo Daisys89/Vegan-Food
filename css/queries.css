@@ -68,10 +68,10 @@ Instead, 1rem = 1em = 16px. Use em for media queries. */
 }
 
 /*********************************/
-/* BELOW 784px (smaller tablets) */
+/* BELOW 768px (smaller tablets) */
 /*********************************/
 
-@media (max-width: 49em) {
+@media (max-width: 48em) {
   html {
     font-size: 35%;
   }
