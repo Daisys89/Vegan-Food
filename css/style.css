@@ -15,8 +15,9 @@
 }
 
 .logo {
-  height: 5rem;
-  width: 24rem;
+  height: 3.2rem;
+  width: 16rem;
+  transform: translate(0, -12%);
 
   /* margin-left: -8.5rem;
   margin-top: -2rem;
@@ -544,4 +545,87 @@
 .cta *:focus {
   outline: none;
   box-shadow: 0 0 0 0.4rem rgba(22, 69, 31, 0.5);
+}
+
+/*********************************/
+/* NAVIGATION */
+/*********************************/
+
+.footer {
+  background-color: #eaf3ec;
+  padding: 8rem 0;
+}
+
+.grid--footer {
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+}
+
+.logo-footer {
+  height: 3.2rem;
+  width: 16rem;
+  transform: translate(0, -34%);
+}
+
+.logo-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo {
+  display: block;
+  margin-bottom: 3.2rem;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 2.4rem;
+}
+
+.social-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+.copyright {
+  font-size: 1.4rem;
+  color: #555;
+  line-height: 1.6rem;
+  margin-top: auto;
+}
+
+.footer-heading {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 4rem;
+}
+
+.contacts {
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+}
+
+.address {
+  margin-bottom: 2.4rem;
+}
+
+.footer-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #555;
+  transition: all 0.3s;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #333;
 }
