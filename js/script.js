@@ -56,7 +56,8 @@ const obs = new IntersectionObserver(
     const ent = entries[0];
 
     if (!ent.isIntersecting) {
-      document.body.classList.add('sticky');
+      document.body.classList.a;
+      dd('sticky');
     }
     if (ent.isIntersecting) {
       document.body.classList.remove('sticky');
